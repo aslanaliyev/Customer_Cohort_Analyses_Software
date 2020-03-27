@@ -1,3 +1,5 @@
+# Created by Aslan Aliyev 
+
 import sys
 import tkinter as tk
 import os
@@ -47,7 +49,7 @@ lbl_6 = Label(window, text="\t Spalte für Jahr")
 lbl_6.grid(column=0, row=4)
 lbl_7 = Label(window, text="\t Spalte für Umsatzart (falls gibt!)")
 lbl_7.grid(column=0, row=5)
-lbl_8 = Label(window, text="Developed by: Aslan Aliyev (aslan.aliyev@ebnerstolz.de)", font='Helvetica 8')
+lbl_8 = Label(window, text="Developed by: Aslan Aliyev (a.aslan1991@gmail.com)", font='Helvetica 8')
 lbl_8.grid(sticky="W", column=0, row=15, padx=0, pady=65)
 
 txt1 = Entry(window, width=10)
